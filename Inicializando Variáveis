@@ -1,0 +1,18 @@
+/*InitVars.C
+*Mostra inicalização de variáveis
+*/
+#include <stdio.h> /* Para printf() */
+#include <stdlib.h>/* Para system() */
+int main()
+{
+    int evento = 5; /* Define evento incializada com 5 */
+    char corrida = 'C'; /* Define corridad inicializada com 27.25*/
+
+    float tempo = 27.25;/* define tempo inicalizada com 27.25*/
+
+    printf("\nda competição %d foi %f.", evento, tempo);
+    printf("\nda competição %d foi %f.", evento, tempo);
+
+    system("PAUSE");
+    return 0;
+}
